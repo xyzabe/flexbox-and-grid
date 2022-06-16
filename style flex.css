@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card {
+    background-color: hsl(31, 77%, 52%);
+    padding: 60px 30px;
+    font-size: 15px;
+    width: 20%;
+    border-radius: 5px 0 0 5px;
+}
+.card2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 60px 30px;
+    font-size: 15px;
+    width: 20%;
+}
+.card3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 60px 30px;
+    font-size: 15px;
+    width: 20%;
+    border-radius: 0 5px 5px 0;
+}
+
+.card-body, .card-header {
+    color: #fff;
+}
+.card-header {
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+}
+.card-body {
+    font-family: cursive;
+    margin: 0 0 60px 0;
+}
+
+a {
+    background-color: #fff;
+    border: none;
+    padding: 15px 18px;
+    border-radius: 25px;
+}
+.one {
+    color: hsl(31, 77%, 52%);
+}
+.two {
+    color: hsl(184, 100%, 22%);
+}
+.three {
+    color: hsl(179, 100%, 13%);
+}
+a:hover {
+    background-color: transparent;
+    color: #fff;
+    border: solid 2px #fff;
+    transition: ease-in 0.2s;
+}
